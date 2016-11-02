@@ -24,6 +24,11 @@ public class TestSum {
 		assertEquals(-7, sum(-3,-4));
 	}
 
+	@Test
+	public void sumaTresNumeros() {
+		assertEquals(15, Math.sum(3, 5, 7));
+	}
+	
 	private int sum(int i, int j) {
 		return Math.sum(i,  j);
 	}
